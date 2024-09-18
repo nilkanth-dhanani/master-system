@@ -1,0 +1,72 @@
+.header-button button {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 20px;
+  font-family: var(--font-family);
+  background-color: transparent;
+  color: var(--color1);
+  padding: 12px 45px;
+  border-radius: 999px;
+  border: 2px solid var(--color1);
+}
+
+.banner-main-head button {
+  margin: 20px 0 0 0;
+  width: 490px;
+  border: none;
+  padding: 10px 32px;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 19px;
+  font-family: var(--font-family);
+  color: var(--color2);
+  text-align: left;
+  border-radius: 999px;
+  background-color: #ba0000;
+  height: 45px;
+}
+
+.footer-grid2-two2 button {
+  margin: 20px 0 0 0;
+  width: 100%;
+  border: 2px solid #fff;
+  padding: 10px 32px;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 19px;
+  font-family: var(--font-family);
+  color: var(--color2);
+  text-align: left;
+  border-radius: 999px;
+  background-color: transparent;
+  height: 45px;
+}
+
+.container {
+  max-width: 1274px;
+  margin: 0 auto;
+}
+
+.container2 {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.container3 {
+  max-width: 1201px;
+  margin: 0 auto;
+}
+
+.container4 {
+  max-width: 868px;
+  margin: 0 auto;
+}
+
+:root {
+  --color1: #292929;
+  --color2: #ffffff;
+  --color3: #595959;
+  --color4: #363636;
+  --color5: #ba0000;
+  --font-family: "Outfit", sans-serif;
+}/*# sourceMappingURL=index.css.map */

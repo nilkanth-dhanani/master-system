@@ -1,0 +1,369 @@
+.header-button button {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 20px;
+  font-family: var(--font-family);
+  background-color: transparent;
+  color: var(--color1);
+  padding: 12px 45px;
+  border-radius: 999px;
+  border: 2px solid var(--color1);
+}
+
+.banner-main-head button {
+  margin: 20px 0 0 0;
+  width: 490px;
+  border: none;
+  padding: 10px 32px;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 19px;
+  font-family: var(--font-family);
+  color: var(--color2);
+  text-align: left;
+  border-radius: 999px;
+  background-color: #ba0000;
+  height: 45px;
+}
+
+.footer-grid2-two2 button {
+  margin: 20px 0 0 0;
+  width: 100%;
+  border: 2px solid #fff;
+  padding: 10px 32px;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 19px;
+  font-family: var(--font-family);
+  color: var(--color2);
+  text-align: left;
+  border-radius: 999px;
+  background-color: transparent;
+  height: 45px;
+}
+
+.container {
+  max-width: 1274px;
+  margin: 0 auto;
+}
+
+.container2 {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.container3 {
+  max-width: 1201px;
+  margin: 0 auto;
+}
+
+.container4 {
+  max-width: 868px;
+  margin: 0 auto;
+}
+
+:root {
+  --color1: #292929;
+  --color2: #ffffff;
+  --color3: #595959;
+  --color4: #363636;
+  --color5: #ba0000;
+  --font-family: "Outfit", sans-serif;
+}
+
+.footer {
+  padding: 56px 0 119px 0;
+  background-color: #ba0000;
+}
+
+.footer-grid {
+  display: grid;
+  grid-template-columns: 520px 1fr;
+  gap: 130px;
+}
+
+.footer-grid1 h4 {
+  font-size: 120px;
+  font-weight: 400;
+  line-height: 140px;
+  font-family: var(--font-family);
+  color: var(--color2);
+  margin-bottom: 80px;
+}
+.footer-grid1 h5 {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 19px;
+  font-family: var(--font-family);
+  font-weight: 700;
+  color: var(--color2);
+  margin-bottom: 20px;
+}
+.footer-grid1 span {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 20px;
+  font-family: var(--font-family);
+  color: var(--color2);
+  margin-bottom: 20px;
+}
+
+.footer-grid1-ancer {
+  padding: 0 0 10px 0;
+}
+.footer-grid1-ancer a {
+  display: block;
+  text-decoration-line: none;
+  padding: 0 0 3px 0;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 20px;
+  font-family: var(--font-family);
+  color: var(--color2);
+}
+
+.footer-grid2-two {
+  padding: 50px 0 60px 0;
+  display: grid;
+  grid-template-columns: 125px 1fr;
+  gap: 52px;
+}
+
+.footer-grid2-two1 p {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 19px;
+  font-family: var(--font-family);
+  color: var(--color2);
+  padding: 0 0 8px 0;
+}
+.footer-grid2-two1 a {
+  display: block;
+  text-decoration-line: none;
+  padding: 0 0 8px 0;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 19px;
+  font-family: var(--font-family);
+  font-weight: 300;
+  line-height: 24px;
+  color: var(--color2);
+}
+
+.footer-grid2-two2 {
+  padding: 0 0 40px 0;
+}
+.footer-grid2-two2 h5 {
+  font-size: 120px;
+  font-weight: 400;
+  line-height: 140px;
+  font-family: var(--font-family);
+  color: var(--color2);
+}
+
+header {
+  background-color: #fff;
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 99;
+}
+
+.header {
+  padding: 10px 0;
+}
+
+.header-main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-menu {
+  display: flex;
+  align-items: center;
+  gap: 28px;
+}
+.header-menu a {
+  text-decoration-line: none;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 19px;
+  font-family: var(--font-family);
+  color: var(--color1);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+  padding: 0;
+}
+
+.banner {
+  padding: 30px 0 70px 0;
+}
+
+.banner-main {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 26px;
+  gap: 26px;
+}
+
+.banner-main-head h2 {
+  font-size: 80px;
+  font-weight: 600;
+  line-height: 100px;
+  font-family: var(--font-family);
+  color: var(--color1);
+  margin-bottom: 8px;
+}
+.banner-main-head span {
+  font-weight: 300;
+}
+
+.banner-main-head-pera {
+  padding: 20px 0;
+  border-bottom: 2px solid var(--color1);
+  max-width: 490px;
+}
+
+.banner-main-head-pera p {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  font-family: var(--font-family);
+  color: var(--color1);
+}
+
+.hero-banner-redbox {
+  border-radius: 20px;
+  padding: 39px 37px;
+  background-color: #ba0000;
+}
+.hero-banner-redbox img {
+  padding: 0 0 4px 0;
+}
+
+.hero-banner-redbox-head {
+  border-bottom: 1px solid #fff;
+  padding-bottom: 4px;
+}
+.hero-banner-redbox-head h1 {
+  font-size: 64px;
+  font-weight: 500;
+  font-family: var(--font-family);
+  color: var(--color2);
+}
+
+.hero-banner-redbox-grid {
+  padding: 32px 0 0 0;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 43px;
+}
+
+.redbox-grid1 h6 {
+  margin-bottom: 4px;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 19px;
+  font-family: var(--font-family);
+  font-weight: 700;
+  color: var(--color2);
+}
+.redbox-grid1 p {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 19px;
+  font-family: var(--font-family);
+  font-weight: 400;
+  color: var(--color2);
+  line-height: 25px;
+}
+
+.hero-banner-card-grid {
+  padding: 20px 0;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.card-grid1 {
+  position: relative;
+}
+
+.red-bg {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  background-color: rgba(186, 0, 0, 0.3);
+  border-radius: 20px;
+}
+
+.card-grid1-position {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 282px;
+  height: 216px;
+  padding: 21px 12px;
+}
+
+.card-grid1-position-img {
+  text-align: right;
+}
+.card-grid1-position-img h4 {
+  font-size: 34px;
+  font-weight: 500;
+  line-height: 44px;
+  font-family: var(--font-family);
+  color: var(--color2);
+}
+
+.card-grid1-position-end {
+  position: absolute;
+  bottom: 0;
+  padding: 21px 12px 21px 0;
+}
+
+.card-grid1-position-end-div {
+  border-top: 1px solid var(--color2);
+  padding-top: 12px;
+}
+.card-grid1-position-end-div p {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  font-family: var(--font-family);
+  font-weight: 600;
+  color: var(--color2);
+  text-align: right;
+}
+
+.iframe123 {
+  height: 796px;
+}
+
+.home-page {
+  padding: 50px 0;
+}
+
+.home-page-head h4 {
+  font-size: 34px;
+  font-weight: 500;
+  line-height: 44px;
+  font-family: var(--font-family);
+  color: var(--color1);
+  margin-bottom: 30px;
+}
+.home-page-head img {
+  width: 100%;
+  height: 527px;
+  border-radius: 20px;
+}/*# sourceMappingURL=home.css.map */

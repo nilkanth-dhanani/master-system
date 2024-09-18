@@ -1,0 +1,18 @@
+.header {
+  padding: 10px 0;
+}
+
+.header-main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-menu {
+  display: flex;
+  align-items: center;
+  gap: 28px;
+}
+.header-menu a {
+  text-decoration-line: none;
+}/*# sourceMappingURL=header.css.map */

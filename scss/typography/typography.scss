@@ -1,0 +1,62 @@
+
+@mixin font12 {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    font-family: var(--font-family);
+}
+
+@mixin font16 {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    font-family: var(--font-family);
+}
+
+@mixin font18 {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 20px;
+    font-family: var(--font-family);
+}
+
+@mixin font20 {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 19px;
+    font-family: var(--font-family);
+}
+
+@mixin font24 {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 41px;
+    font-family: var(--font-family);
+}
+
+@mixin font34 {
+    font-size: 34px;
+    font-weight: 500;
+    line-height: 44px;
+    font-family: var(--font-family);
+}
+
+@mixin font64 {
+    font-size: 64px;
+    font-weight: 500;
+    font-family: var(--font-family);
+}
+
+@mixin font80 {
+    font-size: 80px;
+    font-weight: 600;
+    line-height: 100px;
+    font-family: var(--font-family);
+}
+
+@mixin font120 {
+    font-size: 120px;
+    font-weight: 400;
+    line-height: 140px;
+    font-family: var(--font-family);
+}

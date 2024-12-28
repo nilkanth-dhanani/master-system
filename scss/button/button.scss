@@ -1,7 +1,6 @@
 @import '../typography/typography.scss';
 
 .header-button {
-
     button {
         @include font18;
         background-color: transparent;
@@ -13,7 +12,6 @@
 }
 
 .banner-main-head {
-
     button {
         margin: 20px 0 0 0;
         width: 490px;
@@ -29,7 +27,6 @@
 }
 
 .footer-grid2-two2 {
-
     button {
         margin: 20px 0 0 0;
         width: 100%;

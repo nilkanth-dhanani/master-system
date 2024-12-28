@@ -29,7 +29,6 @@ h1,h2,h3,h4,h5,h6,p {
 }
 
 .position-absolute-main {
-
     h1 {
         @include font120;
         color: var(--color2);
@@ -48,6 +47,7 @@ h1,h2,h3,h4,h5,h6,p {
         width: 18px;
         border-radius: 50%;
     }
+
     span {
         display: block;
         @include font18;
@@ -75,6 +75,7 @@ h1,h2,h3,h4,h5,h6,p {
     img {
         width: 18px;
     }
+
     span {
         display: block;
         @include font18;
@@ -94,14 +95,15 @@ h1,h2,h3,h4,h5,h6,p {
 }
 
 .qhsemaster-master {
-
     p {
         @include font34;
         color: var(--color1);
     }
+
     img {
         padding: 12px 0;
     }
+
     span {
         display: block;
         max-width: 486px;
@@ -112,7 +114,6 @@ h1,h2,h3,h4,h5,h6,p {
 }
 
 .continious1-main {
-
     span {
         @include font12;
         color: var(--color3);
@@ -159,12 +160,14 @@ h1,h2,h3,h4,h5,h6,p {
 
 .continious5-continiousen-div2 {
     max-width: 513px;
+    
     h6 {
         @include font18;
         color: var(--color4);
         font-weight: 700;
         margin-bottom: 16px;
     }
+
     p {
         @include font18;
         color: var(--color4);
@@ -184,7 +187,6 @@ h1,h2,h3,h4,h5,h6,p {
 }
 
 .continious-main {
-
     span {
         @include font12;
         color: var(--color3);
@@ -230,12 +232,14 @@ h1,h2,h3,h4,h5,h6,p {
 
 .continious-continiousen6-div2 {
     max-width: 501px;
+
     h6 {
         @include font18;
         color: var(--color4);
         font-weight: 700;
         margin-bottom: 16px;
     }
+    
     p {
         @include font18;
         color: var(--color4);

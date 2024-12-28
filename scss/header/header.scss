@@ -4,7 +4,6 @@ header {
     top: 0;
     left: 0;
     z-index: 99;
-
 }
 
 .header {
@@ -27,8 +26,4 @@ header {
         @include font16;
         color: var(--color1);
     }
-}
-
-@media (max-width:1024px) {
-    
 }

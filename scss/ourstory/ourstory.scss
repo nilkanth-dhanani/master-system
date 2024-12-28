@@ -29,7 +29,6 @@ h1,h2,h3,h4,h5,h6,p {
 }
 
 .position-absolute-main {
-
     h1 {
         @include font120;
         color: var(--color2);
@@ -48,6 +47,7 @@ h1,h2,h3,h4,h5,h6,p {
         width: 18px;
         border-radius: 50%;
     }
+
     span {
         display: block;
         @include font18;
@@ -75,6 +75,7 @@ h1,h2,h3,h4,h5,h6,p {
     img {
         width: 18px;
     }
+
     span {
         display: block;
         @include font18;
@@ -94,7 +95,6 @@ h1,h2,h3,h4,h5,h6,p {
 }
 
 .continious-main {
-
     span {
         @include font12;
         color: var(--color3);
@@ -139,6 +139,7 @@ h1,h2,h3,h4,h5,h6,p {
         font-weight: 700;
         margin-bottom: 16px;
     }
+
     p {
         @include font18;
         color: var(--color4);
@@ -168,12 +169,14 @@ h1,h2,h3,h4,h5,h6,p {
 
 .continious-continiousen2-div2 {
     max-width: 466px;
+
     h6 {
         @include font18;
         color: var(--color4);
         font-weight: 700;
         margin-bottom: 16px;
     }
+
     p {
         @include font18;
         color: var(--color4);
@@ -188,7 +191,6 @@ h1,h2,h3,h4,h5,h6,p {
     border-bottom: 2px solid var(--color1);
 }
 
-
 .continious-continiousen3 {
     padding-top: 40px;
 }
@@ -200,6 +202,7 @@ h1,h2,h3,h4,h5,h6,p {
         font-weight: 700;
         margin-bottom: 16px;
     }
+    
     p {
         @include font18;
         color: var(--color4);
